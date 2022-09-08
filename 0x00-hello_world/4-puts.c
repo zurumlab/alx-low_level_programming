@@ -5,9 +5,7 @@
  *
  * Description: using the main function
  * this program prints words
- * Return : zero
- *
- *Description:  puts takes user values and return zero
+ * return : 0
  */
 int main(void)
 	{
