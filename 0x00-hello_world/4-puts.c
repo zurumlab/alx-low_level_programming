@@ -6,6 +6,8 @@
  * Description: using the main function
  * this program prints words
  * Return : zero
+ *
+ *Description:  puts takes user values and return zero
  */
 int main(void)
 	{
