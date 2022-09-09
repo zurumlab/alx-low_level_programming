@@ -9,7 +9,7 @@
 * this program prints "Programming is positive
 * Return: 0
 */
-int main(0)
+int main(void)
 {
     int n;
     
@@ -30,5 +30,5 @@ int main(0)
 	printf("%i is negative\n", n);
         
     }
-    return 0;
+    return (0);
 }
