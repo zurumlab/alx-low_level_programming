@@ -2,15 +2,14 @@
 #include<stdlib.h>
 #include <stdio.h>
 
-/* main - print the last digit and check check its conditions. */
-
 /**
+* main - print last digit of a random number
+*
 * Description: using the main function
-* this program prints Programming is positive
-* return: 0
+* this program is on low level programming with c
+* Return: 0
 */
 
-/* main - print the last digit and check check its conditions. */
 int main(void)
 {
 	int num, n;
