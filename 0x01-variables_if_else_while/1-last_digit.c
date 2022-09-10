@@ -22,16 +22,16 @@ int main(void)
 	/*make your decision here*/
 	if (m > 5)
 	{
-	pirintf("Last digit of %i is %i and is greater than 5\n", n, m);
+	pirintf("Last digit of %i\n is %i\n and is greater than 5", n, m);
 	}
 	else if (m == 0)
 	{
-	printf("Last digit of %i is %i and is 0\n", n, m);
+	printf("Last digit of %i\n is %i\n and is 0", n, m);
 	}
 	else if ((m < 6) && (m != 0))
 	{
-	printf("Last digit of %i is %i and is less
-	than 6 and not 0\n", n, m);
+	printf("%i Last digit of %i\n is %i\n and is less
+	than 6 and not 0", n, m);
 	}
 	return (0);
 i}
