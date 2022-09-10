@@ -11,27 +11,22 @@
 */
 int main(void)
 {
-	int n;
-	int m;
+	int num, n;
 
 	srand(time(0));
-	/*random number generation*/
 	n = rand() - RAND_MAX / 2;
-	/*this code generate the last digit*/
-	 m = (n % 10);
-	/*make your decision here*/
-	if (m > 5)
+	num = (n % 10);
+	if (num > 5)
 	{
-	pirintf("Last digit of %i\n is %i\n and is greater than 5", n, m);
+	printf("Last digit of %d""\n""is %d""\n""and is greater than 5\n", n, num);
 	}
-	else if (m == 0)
+	else if (num == 0)
 	{
-	printf("Last digit of %i\n is %i\n and is 0", n, m);
+	printf("Last digit of %d""\n""is %d""\n""and is 0\n", n, num);
 	}
-	else if ((m < 6) && (m != 0))
+	else if ((num < 6) && (num != 0))
 	{
-	printf("%i Last digit of %i\n is %i\n and is less
-	than 6 and not 0", n, m);
+	printf("Last digit of %d""\n""is %d""\n""and is less than 6 and not 0\n", n, num);
 	}
 	return (0);
-i}
+}
