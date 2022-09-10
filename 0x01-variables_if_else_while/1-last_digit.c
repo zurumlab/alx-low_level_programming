@@ -11,12 +11,13 @@
 int main(void)
 {
 	int n;
+	int m;
 
 	srand(time(0));
 	/*random number generation*/
 	n = rand() - RAND_MAX / 2;
 	/*this code generate the last digit*/
-	int m = (n % 10);
+	 m = (n % 10);
 	/*make your decision here*/
 	if (m > 5)
 	{
@@ -32,4 +33,4 @@ int main(void)
 	than 6 and not 0", n, m);
 	}
 	return (0);
-}
+i}
