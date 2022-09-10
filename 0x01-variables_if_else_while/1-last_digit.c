@@ -16,20 +16,20 @@ int main(void)
 	/*random number generation*/
 	n = rand() - RAND_MAX / 2;
 	/*this code generate the last digit*/
-	int lastDigit = (n % 10);
+	int m = (n % 10);
 	/*make your decision here*/
-	if (lastDigit > 5)
+	if (m > 5)
 	{
-	printf("Last digit of %d is %d\n\n and is greater than 5", n, lastDigit);
+	printf("Last digit of %d is %d\n\n and is greater than 5", n, m);
 	}
-	else if (lastDigit == 0)
+	else if (m == 0)
 	{
-	printf("Last digit of %d is %d\n\n and is 0", n, lastDigit);
+	printf("Last digit of %d is %d\n\n and is 0", n, m);
 	}
-	else if ((lastDigit < 6) && (lastDigit != 0))
+	else if ((m < 6) && (m != 0))
 	{
 	printf("Last digit of %d is %d\n\n and is less
-	than 6 and not 0", n, lastDigit);
+	than 6 and not 0", n, m);
 	}
 	return (0);
 }
