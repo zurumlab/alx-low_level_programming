@@ -18,7 +18,7 @@ int main(void)
 	'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
 	'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 	/* loop through the array */
-	for (i = 0; i < (int) sizeof(ch); i++)
+	for (i = 0; i < (int) sizeof(ch) - 1; i++)
 	{
 	putchar(ch[i]);
 	}
