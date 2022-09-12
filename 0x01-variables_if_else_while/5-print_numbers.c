@@ -2,12 +2,13 @@
 #include <stdlib.h>
 
 /**
- * main - prints single digits of base 10 number
+ * main - prints single digits of base ten numbers using putchar function.
  *
- * Description: this program is wriitten by James Chizurum on a low level
- * programminug with c.
+ * Description: using main function
+ * this is  low level programming with c
+ * writting by James Chizurum.
  *
- * return : 0
+ * Return: 0
  */
 
 int main(void)
