@@ -16,7 +16,7 @@ int main(void)
 	int i;
 
 	/* store the characters in array */
-	char ch[25] = {'a', 'b', 'c', 'd', 'e', 'f', 'g',
+	char ch[25] = {'a', 'b', 'c', 'd', 'f', 'g',
 	'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p',
 	'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '\n'};
 	for (i = 0; i < (int) sizeof(ch); i++)
