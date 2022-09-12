@@ -21,7 +21,7 @@ int main(void)
 	/* create another array of characters */
 	char ch2[27] = {'a', 'b', 'c', 'd', 'e', 'f', 'g',
 	'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
-	'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','\n'};
+	'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 	/* loop through the first  array and print small letters */
 	for (i = 0; i < (int) sizeof(ch); i++)
 	{
