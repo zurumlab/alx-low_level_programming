@@ -19,9 +19,9 @@ int main(void)
 	'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
 	'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 	/* create another array of characters */
-	char ch2[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g',
+	char ch2[27] = {'a', 'b', 'c', 'd', 'e', 'f', 'g',
 	'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
-	'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','\n'};
 	/* loop through the first  array and print small letters */
 	for (i = 0; i < (int) sizeof(ch); i++)
 	{
