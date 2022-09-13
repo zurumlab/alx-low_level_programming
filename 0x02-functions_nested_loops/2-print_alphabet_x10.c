@@ -24,4 +24,5 @@ void print_alphabet_x10(void)
 	/* call the _putchar function */
 	_putchar(ch[r]);
 	}
+	}
 }
