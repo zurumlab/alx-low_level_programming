@@ -1,4 +1,4 @@
-#imclude "main.h"
+#include "main.h"
 
 /**
  *_isalpha - checks if result is alphabet
@@ -10,7 +10,7 @@
 
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= ''z') || (c >= 'A' && c <= 'z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
 	{
 	return (1);
 	}
