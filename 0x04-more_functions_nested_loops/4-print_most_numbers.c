@@ -16,6 +16,7 @@ if (i == 50 || i == 52)
 {
 continue;
 }
-putchar(i + '0');
+putchar(i);
 }
+putchar(10);
 }
