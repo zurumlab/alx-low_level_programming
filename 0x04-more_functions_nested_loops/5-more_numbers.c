@@ -14,9 +14,9 @@ for (r = 0; r < 10; r++)
 {
 	for (b = 0; b < 14; b++)
 	{
-		if (b > 9)
+		if (b > 9i)
 		{
-			putchar((b % 10) + '0');
+			putchar((b / 10) + '0');
 		}
 			putchar((b % 10) + '0');
 			}
