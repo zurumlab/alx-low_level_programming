@@ -3,7 +3,7 @@
 
 /**
  * _strncpy - a function for copying
- * @des: param
+ * @dest: param
  * @src: param
  * @n: param
  * Return: string
