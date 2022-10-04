@@ -10,16 +10,16 @@
 
 int main(int argc, char *argv[])
 {
-int num1, num2, mul;
+int foo, bar;
 
 if (argc != 3)
-printf("Error");
+printf("Error\n");
 else
 {
-num1 = atoi(argv[1]);
-num2 = atoi(argv[2]);
-mul = num1 * num2;
-printf("%d\n", mul);
+foo = atoi(argv[1]);
+bar = atoi(argv[2]);
+
+printf("%d\n", bar *foo);
 }
 return (0);
 }
