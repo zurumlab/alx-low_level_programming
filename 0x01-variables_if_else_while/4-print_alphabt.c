@@ -7,6 +7,7 @@
 *
 * Description: using the main function
 * this program is on low level programming with c
+* written by James Chizurum on 11, september, 2020
 *
 * Return: 0
 */
