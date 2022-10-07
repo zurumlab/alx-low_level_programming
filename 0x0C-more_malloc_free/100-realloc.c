@@ -27,7 +27,7 @@ if (nptr == NULL)
 
 return (NULL);
 
-return (ptr);
+return (nptr);
 }
 else
 {
